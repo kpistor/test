@@ -11,6 +11,7 @@
 
 // COMMAND ----------
 
+val kyle = "weird"
 def getUrlAsString(url: String): String = {
   val client = new org.apache.http.impl.client.DefaultHttpClient()
   val request = new org.apache.http.client.methods.HttpGet(url)
